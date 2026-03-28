@@ -1,0 +1,104 @@
+.page {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #fff;
+  position: relative;
+}
+
+.lang-switch {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.action-btn {
+  padding: 1rem 2.5rem;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.action-btn:hover {
+  transform: scale(1.05);
+}
+
+.lottery-display {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 1rem 0;
+  min-width: 250px;
+  text-align: center;
+}
+.lottery-display.spinning {
+  animation: pulse 0.3s infinite alternate;
+}
+.lottery-display.done {
+  background: rgba(102, 126, 234, 0.3);
+  border: 2px solid #667eea;
+}
+
+@keyframes pulse {
+  from { opacity: 0.6; transform: scale(0.97); }
+  to { opacity: 1; transform: scale(1.03); }
+}
+
+.result-card {
+  margin-top: 1.5rem;
+  padding: 2rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  max-width: 500px;
+  text-align: center;
+  animation: fadeIn 0.5s ease;
+}
+.result-card h2 { margin-bottom: 0.8rem; color: #a78bfa; }
+.result-card p { line-height: 1.7; font-size: 1.1rem; }
+
+.character-card img {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+.character-card ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.character-card li {
+  background: rgba(102, 126, 234, 0.3);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.95rem;
+}
+
+.loading { font-style: italic; opacity: 0.7; }
+.error { color: #f87171; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

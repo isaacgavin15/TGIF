@@ -1,0 +1,42 @@
+[
+  {
+    "name": { "en": "David", "id": "Daud" },
+    "image": "/characters/David.webp",
+    "traits": {
+      "en": ["Courageous", "Worshipper", "Repentant"],
+      "id": ["Berani", "Penyembah", "Bertobat"]
+    }
+  },
+  {
+    "name": { "en": "Esther", "id": "Ester" },
+    "image": "/characters/Esther.webp",
+    "traits": {
+      "en": ["Brave", "Faithful"],
+      "id": ["Berani", "Setia"]
+    }
+  },
+  {
+    "name": { "en": "Moses", "id": "Musa" },
+    "image": "/characters/Moses.webp",
+    "traits": {
+      "en": ["Obedient", "Humble", "Leader"],
+      "id": ["Taat", "Rendah Hati", "Pemimpin"]
+    }
+  },
+  {
+    "name": { "en": "Joseph", "id": "Yusuf" },
+    "image": "/characters/Joseph.webp",
+    "traits": {
+      "en": ["Faithful", "Forgiving"],
+      "id": ["Setia", "Pemaaf"]
+    }
+  },
+  {
+    "name": { "en": "Ruth", "id": "Rut" },
+    "image": "/characters/Ruth.webp",
+    "traits": {
+      "en": ["Loyal", "Devoted"],
+      "id": ["Setia", "Berbakti"]
+    }
+  }
+]
