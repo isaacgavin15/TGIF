@@ -38,5 +38,13 @@
       "en": ["Loyal", "Devoted"],
       "id": ["Setia", "Berbakti"]
     }
+  },
+  {
+    "name": { "en": "Noah", "id": "Nuh" },
+    "image": "/characters/Noah.webp",
+    "traits": {
+      "en": ["Faith", "Obedience", "Perserverance"],
+      "id": ["Iman", "Taat", "Ketekunan"]
+    }
   }
 ]

@@ -3,6 +3,8 @@ import verseList from "../data/verses.json";
 import { useLottery } from "../hooks/useLottery";
 import { t } from "../i18n";
 import LanguageSwitcher from "../components/LanguageSwitcher";
+import Logo from "../components/Logo";
+import FooterLogo from "../components/FooterLogo";
 
 const formatRef = (entry) =>
   `${entry.book} ${entry.chapter}:${entry.verses.join(",")}`;
@@ -31,6 +33,8 @@ export default function VersePage() {
   const [loading, setLoading] = useState(false);
   const { current, isSpinning, isDone, spin } = useLottery(verseList);
 
+  const footerVariant = isSpinning ? "spinning" : isDone ? "verseDone" : "idle";
+
   const handleClick = () => {
     setError(null);
     spin(async (selected) => {
@@ -49,6 +53,8 @@ export default function VersePage() {
     <div className="page">
       <LanguageSwitcher lang={lang} setLang={setLang} />
 
+      <Logo />
+
       {!isDone && !isSpinning && (
         <button className="action-btn" onClick={handleClick}>
           {t(lang, "getVerse")}
@@ -61,15 +67,15 @@ export default function VersePage() {
         </div>
       )}
 
-      {loading && <p className="loading">{t(lang, "loading")}</p>}
+      {(isSpinning || loading) && <p className="loading">{t(lang, "loading")}</p>}
       {error && <p className="error">{error}</p>}
 
       {verseData && !loading && (
         <div className="result-card">
-          <h2>{verseData.reference}</h2>
           <p>{verseData.text}</p>
         </div>
       )}
+      <FooterLogo variant={footerVariant} />
     </div>
   );
 }

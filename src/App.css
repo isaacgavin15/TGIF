@@ -1,35 +1,56 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+body {
+  background: #efafaf;
+}
+
 .page {
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
-  font-family: "Segoe UI", sans-serif;
-  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-  color: #fff;
+  padding: 1.5rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  color: #333;
   position: relative;
+  width: 100%;
+  max-width: 430px;
+  margin: 0 auto;
 }
 
 .lang-switch {
-  position: absolute;
+  position: fixed;
   top: 1rem;
   right: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.6);
+  color: #333;
   cursor: pointer;
   font-size: 0.9rem;
 }
 
 .action-btn {
-  padding: 1rem 2.5rem;
-  font-size: 1.3rem;
-  border: none;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 0.7rem 1.5rem;
+  font-size: clamp(0.8rem, 3.2vw, 1rem);
+  border: 4px solid #fff;
   border-radius: 12px;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: #3a2c28;
   color: #fff;
   cursor: pointer;
   transition: transform 0.2s;
@@ -39,21 +60,27 @@
 }
 
 .lottery-display {
-  font-size: 1.8rem;
+  font-size: clamp(1rem, 4vw, 1.4rem);
   font-weight: bold;
-  padding: 1rem 2rem;
+  padding: 0.7rem 1.5rem;
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.5);
   margin: 1rem 0;
-  min-width: 250px;
+  width: 100%;
+  max-width: 350px;
   text-align: center;
 }
 .lottery-display.spinning {
   animation: pulse 0.3s infinite alternate;
+  max-width: min(300px, 100%);
+  background: #fff;
+  color: #d3664c;
 }
 .lottery-display.done {
-  background: rgba(102, 126, 234, 0.3);
-  border: 2px solid #667eea;
+  max-width: min(250px, 100%);
+  background: #d3664c;
+  color: #fff;
+  border: 4px solid #fff;
 }
 
 @keyframes pulse {
@@ -62,20 +89,24 @@
 }
 
 .result-card {
-  margin-top: 1.5rem;
-  padding: 2rem;
+  padding: 0.5rem;
   border-radius: 16px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.5);
   max-width: 500px;
+  width: 100%;
   text-align: center;
   animation: fadeIn 0.5s ease;
 }
-.result-card h2 { margin-bottom: 0.8rem; color: #a78bfa; }
-.result-card p { line-height: 1.7; font-size: 1.1rem; }
+.result-card h2 { margin-bottom: 0.8rem; color: #3a2c28; }
+.result-card p { line-height: 1.7; font-size: clamp(0.95rem, 3.5vw, 1.1rem); }
+
+.character-card {
+  background: transparent;
+}
 
 .character-card img {
   max-width: 100%;
-  max-height: 300px;
+  max-height: 320px;
   object-fit: contain;
   border-radius: 12px;
   margin-bottom: 1rem;
@@ -89,16 +120,105 @@
   flex-wrap: wrap;
 }
 .character-card li {
-  background: rgba(102, 126, 234, 0.3);
+  background: #3a2c28;
+  color: #fff;
   padding: 0.4rem 1rem;
-  border-radius: 20px;
+  border-radius: 10px;
+  border: 3px solid #fff;
   font-size: 0.95rem;
 }
 
-.loading { font-style: italic; opacity: 0.7; }
+.loading { font-style: italic; color: #3a2c28; font-size: 1.5rem; }
 .error { color: #f87171; }
+
+.trait-title{
+  margin-bottom: 0.8rem;
+  font-size: medium;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.logo-top {
+  width: 80px;
+}
+.logo-bottom {
+  width: 180px;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  animation: floatIn 0.8s ease-out, footerFloat 3s ease-in-out infinite 0.8s;
+}
+.logo-before {
+  width: 300px;
+}
+.logo-after {
+  width: 210px;
+}
+.logo-verse {
+  width: 180px;
+}
+
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes floatIn {
+  from { opacity: 0; transform: translateY(18px) scale(0.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes footerFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding: 1rem;
+  }
+
+  .action-btn {
+    padding: 1rem 1.5rem;
+    font-size: clamp(0.78rem, 3vw, 0.95rem);
+  }
+
+  .lottery-display {
+    max-width: 100%;
+  }
+
+  .lottery-display.spinning {
+    max-width: min(250px, 100%);
+  } 
+
+  .lottery-display.done {
+    max-width: min(200px, 100%);
+  }
+
+  .character-card li {
+    font-size: 0.88rem;
+    padding: 0.35rem 0.85rem;
+  }
+
+  .logo-before {
+    width: min(300px, 78vw);
+  }
+
+  .logo-after{
+    width: min(210px, 56vw);
+  }
+
+  .logo-verse {
+    width: min(170px, 56vw);
+  }
 }
