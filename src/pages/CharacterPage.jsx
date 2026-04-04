@@ -39,6 +39,19 @@ export default function CharacterPage() {
               <li key={trait}>{trait}</li>
             ))}
           </ul>
+
+          <div className="character-passage-section">
+            <h4 className="character-passage-title">Passage</h4>
+          </div>
+
+          <div className="character-passage">
+              {current.passage[lang].join("; ")}
+          </div>
+
+          <div className="character-summary-section">
+            <h4 className="character-summary-title">Summary</h4>
+            <p>{current.context[lang]}</p>
+          </div>
         </div>
       )}
 

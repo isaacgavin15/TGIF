@@ -98,7 +98,7 @@ body {
   animation: fadeIn 0.5s ease;
 }
 .result-card h2 { margin-bottom: 0.8rem; color: #3a2c28; }
-.result-card p { line-height: 1.7; font-size: clamp(0.95rem, 3.5vw, 1.1rem); }
+.result-card p { line-height: 1.7; font-size: medium; }
 
 .character-card {
   background: transparent;
@@ -128,6 +128,52 @@ body {
   font-size: 0.95rem;
 }
 
+.character-summary-section {
+  max-width: 100%;
+  margin-top: 0.8rem;
+  padding: 0.7rem 1.2rem;
+  text-align: left;
+  border-radius: 12px;
+  background: #fff;
+  line-height: 1.5;
+}
+
+.character-passage-section {
+  width: 100%;
+  margin-top: 1.2rem;
+  text-align: left;
+}
+
+.character-passage-title {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  color: #3a2c28;
+  font-style: italic;
+}
+
+.character-summary-title {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  color: #d3664c;
+  font-style: italic;
+}
+
+.character-passage {
+  max-width: 100%;
+  padding: 0.7rem 1.2rem;
+  border: 4px solid #fff;
+  border-radius: 12px;
+  background: #3a2c28;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.character-summary-section p {
+  margin: 0;
+  line-height: 1.7;
+  font-size: small;
+}
+
 .loading { font-style: italic; color: #3a2c28; font-size: 1.5rem; }
 .error { color: #f87171; }
 
@@ -140,7 +186,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 .logo-top {
   width: 80px;
@@ -208,6 +254,24 @@ body {
   .character-card li {
     font-size: 0.88rem;
     padding: 0.35rem 0.85rem;
+  }
+
+  .character-info-title {
+    font-size: 0.8rem;
+  }
+
+  .character-passage {
+    width: 100%;
+    padding: 0.65rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .character-summary {
+    padding: 0.85rem;
+  }
+
+  .character-summary p {
+    font-size: 0.92rem;
   }
 
   .logo-before {

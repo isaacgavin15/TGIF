@@ -1,50 +1,402 @@
 [
   {
+    "name": { "en": "Abraham", "id": "Abraham" },
+    "image": "/characters/Abraham.webp",
+    "traits": {
+      "en": ["Faith", "Trust", "Obedience"],
+      "id": ["Iman", "Percaya", "Ketaatan"]
+    },
+    "passage": {
+      "en": ["Genesis 12", "Genesis 22"],
+      "id": ["Kejadian 12", "Kejadian 22"]
+    },
+    "context": {
+      "en": "God called Abraham to leave his home and go to a place he had never seen. Later, Abraham was tested again when God asked him to trust Him fully. Even in uncertainty, Abraham chose to believe in God’s promises and follow His direction step by step.",
+      "id": "Tuhan memanggil Abraham untuk meninggalkan negerinya dan pergi ke tempat yang belum pernah ia lihat. Kemudian, Abraham diuji lagi ketika Tuhan memintanya untuk sepenuhnya percaya kepada-Nya. Di tengah ketidakpastian, Abraham memilih untuk percaya pada janji Tuhan dan mengikuti arahan-Nya selangkah demi selangkah."
+    },
+    "takeaway": {
+      "en": "Trust God beyond what you can see.",
+      "id": "Percayalah kepada Tuhan melampaui apa yang bisa kamu lihat."
+    }
+  },
+  {
+    "name": { "en": "Caleb", "id": "Kaleb" },
+    "image": "/characters/Caleb.webp",
+    "traits": {
+      "en": ["Faith", "Boldness", "Trust in God"],
+      "id": ["Iman", "Keberanian", "Percaya kepada Tuhan"]
+    },
+    "passage": {
+      "en": ["Numbers 13-14"],
+      "id": ["Bilangan 13-14"]
+    },
+    "context": {
+      "en": "When spies were sent to explore the Promised Land, most were afraid of the challenges they saw. Caleb, however, trusted God’s promise and believed they could overcome the obstacles. Even when others doubted, he stood firm in faith.",
+      "id": "Ketika para pengintai diutus untuk menjelajahi Tanah Perjanjian, kebanyakan takut terhadap tantangan yang mereka lihat. Namun Kaleb percaya pada janji Tuhan dan yakin mereka dapat mengatasi rintangan itu. Bahkan ketika orang lain ragu, ia tetap teguh dalam iman."
+    },
+    "takeaway": {
+      "en": "Hold onto faith, even when others are afraid.",
+      "id": "Pegang teguh iman, bahkan ketika orang lain merasa takut."
+    }
+  },
+  {
+    "name": { "en": "Daniel", "id": "Daniel" },
+    "image": "/characters/Daniel.webp",
+    "traits": {
+      "en": ["Faithfulness", "Discipline", "Courage"],
+      "id": ["Kesetiaan", "Disiplin", "Keberanian"]
+    },
+    "passage": {
+      "en": ["Daniel 6"],
+      "id": ["Daniel 6"]
+    },
+    "context": {
+      "en": "Daniel remained faithful to God even when it became illegal to pray. Despite the risk, he continued his daily prayers openly. As a result, he was thrown into a lion’s den, but God protected him because of his faithfulness.",
+      "id": "Daniel tetap setia kepada Tuhan bahkan ketika berdoa menjadi hal yang dilarang. Meskipun ada risiko, ia terus berdoa setiap hari secara terbuka. Akibatnya, ia dilemparkan ke gua singa, tetapi Tuhan melindunginya karena kesetiaannya."
+    },
+    "takeaway": {
+      "en": "Stay faithful to God, even when it costs you.",
+      "id": "Tetap setia kepada Tuhan, bahkan ketika itu menuntut pengorbanan."
+    }
+  },
+  {
     "name": { "en": "David", "id": "Daud" },
     "image": "/characters/David.webp",
     "traits": {
-      "en": ["Courageous", "Worshipper", "Repentant"],
-      "id": ["Berani", "Penyembah", "Bertobat"]
+      "en": ["Courage", "Trust in God", "Repentance"],
+      "id": ["Keberanian", "Percaya kepada Tuhan", "Pertobatan"]
+    },
+    "passage": {
+      "en": ["1 Samuel 17", "Psalm 51"],
+      "id": ["1 Samuel 17", "Mazmur 51"]
+    },
+    "context": {
+      "en": "David was a young shepherd when he faced Goliath, a giant warrior that everyone else was afraid of. Instead of relying on armor or weapons, David trusted God and stepped forward with faith, defeating Goliath with a sling. Later in life, David made serious mistakes and sinned against God, but instead of hiding, he admitted his wrongdoing and turned back to God with a sincere and broken heart.",
+      "id": "Daud adalah seorang gembala muda ketika ia menghadapi Goliat, seorang prajurit raksasa yang ditakuti semua orang. Alih-alih mengandalkan baju zirah atau senjata, Daud percaya kepada Tuhan dan melangkah maju dengan iman, mengalahkan Goliat dengan umban. Di kemudian hari, Daud melakukan kesalahan besar dan berdosa kepada Tuhan, tetapi bukannya bersembunyi, ia mengakui kesalahannya dan kembali kepada Tuhan dengan hati yang tulus dan hancur."
+    },
+    "takeaway": {
+      "en": "Face challenges with faith, not fear. When you fall, return to God with humility.",
+      "id": "Hadapi tantangan dengan iman, bukan ketakutan. Ketika kamu jatuh, kembalilah kepada Tuhan dengan kerendahan hati."
+    }
+  },
+  {
+    "name": { "en": "Deborah", "id": "Debora" },
+    "image": "/characters/Deborah.webp",
+    "traits": {
+      "en": ["Wisdom", "Leadership", "Courage"],
+      "id": ["Hikmat", "Kepemimpinan", "Keberanian"]
+    },
+    "passage": {
+      "en": ["Judges 4"],
+      "id": ["Hakim-hakim 4"]
+    },
+    "context": {
+      "en": "Deborah was a leader and judge in Israel during a difficult time. She guided the people with wisdom and encouraged others to step into their calling. When needed, she stood boldly and helped lead the nation toward victory.",
+      "id": "Debora adalah seorang pemimpin dan hakim di Israel pada masa yang sulit. Ia membimbing bangsa itu dengan hikmat dan mendorong orang lain untuk melangkah dalam panggilannya. Saat dibutuhkan, ia berdiri dengan berani dan membantu memimpin bangsa itu menuju kemenangan."
+    },
+    "takeaway": {
+      "en": "Lead with wisdom and courage, even when it’s uncommon.",
+      "id": "Pimpinlah dengan hikmat dan keberanian, bahkan ketika itu tidak biasa."
+    }
+  },
+  {
+    "name": { "en": "Elijah", "id": "Elia" },
+    "image": "/characters/Elijah.webp",
+    "traits": {
+      "en": ["Faith", "Boldness", "Dependence on God"],
+      "id": ["Iman", "Keberanian", "Ketergantungan pada Tuhan"]
+    },
+    "passage": {
+      "en": ["1 Kings 18-19"],
+      "id": ["1 Raja-raja 18-19"]
+    },
+    "context": {
+      "en": "Elijah boldly challenged false prophets and trusted God to reveal His power publicly. After a great victory, however, Elijah felt afraid and exhausted, running away in fear. God met him in his weakness, reminding him that he was not alone.",
+      "id": "Elia dengan berani menantang nabi-nabi palsu dan percaya bahwa Tuhan akan menyatakan kuasa-Nya di depan umum. Namun setelah kemenangan besar itu, Elia merasa takut dan kelelahan, lalu melarikan diri dalam ketakutan. Tuhan menjumpainya dalam kelemahannya dan mengingatkannya bahwa ia tidak sendirian."
+    },
+    "takeaway": {
+      "en": "Even strong faith has moments of weakness—God still sustains you.",
+      "id": "Bahkan iman yang kuat pun memiliki saat-saat lemah—Tuhan tetap menopangmu."
     }
   },
   {
     "name": { "en": "Esther", "id": "Ester" },
     "image": "/characters/Esther.webp",
     "traits": {
-      "en": ["Brave", "Faithful"],
-      "id": ["Berani", "Setia"]
+      "en": ["Courage", "Wisdom", "Obedience"],
+      "id": ["Keberanian", "Hikmat", "Ketaatan"]
+    },
+    "passage": {
+      "en": ["Esther 4-5"],
+      "id": ["Ester 4-5"]
+    },
+    "context": {
+      "en": "Esther was a queen who discovered that her people were in danger of being destroyed. Approaching the king without being summoned could cost her life, but she chose to step in. Instead of acting impulsively, she took time to fast and pray, then approached the situation with wisdom and courage, ultimately helping save her people.",
+      "id": "Ester adalah seorang ratu yang mengetahui bahwa bangsanya berada dalam bahaya untuk dimusnahkan. Mendekati raja tanpa dipanggil bisa membuatnya kehilangan nyawa, tetapi ia memilih untuk bertindak. Alih-alih bertindak gegabah, ia meluangkan waktu untuk berpuasa dan berdoa, lalu menghadapi situasi itu dengan hikmat dan keberanian, hingga akhirnya menolong menyelamatkan bangsanya."
+    },
+    "takeaway": {
+      "en": "Step up with courage and trust God’s timing.",
+      "id": "Melangkahlah dengan berani dan percayalah pada waktu Tuhan."
     }
   },
   {
-    "name": { "en": "Moses", "id": "Musa" },
-    "image": "/characters/Moses.webp",
+    "name": { "en": "Gideon", "id": "Gideon" },
+    "image": "/characters/Gideon.webp",
     "traits": {
-      "en": ["Obedient", "Humble", "Leader"],
-      "id": ["Taat", "Rendah Hati", "Pemimpin"]
+      "en": ["Faith", "Growth", "Obedience"],
+      "id": ["Iman", "Pertumbuhan", "Ketaatan"]
+    },
+    "passage": {
+      "en": ["Judges 6-7"],
+      "id": ["Hakim-hakim 6-7"]
+    },
+    "context": {
+      "en": "Gideon saw himself as weak and insignificant when God called him to lead Israel. He asked God for reassurance multiple times, showing his doubts. Yet, as he obeyed step by step, his faith grew, and God used him to bring victory in an unexpected way.",
+      "id": "Gideon memandang dirinya lemah dan tidak berarti ketika Tuhan memanggilnya untuk memimpin Israel. Ia beberapa kali meminta peneguhan dari Tuhan, menunjukkan keraguannya. Namun ketika ia taat selangkah demi selangkah, imannya bertumbuh, dan Tuhan memakainya untuk membawa kemenangan بطريقة yang tak terduga."
+    },
+    "takeaway": {
+      "en": "God grows your faith as you take small steps of obedience.",
+      "id": "Tuhan menumbuhkan imanmu ketika kamu mengambil langkah-langkah kecil dalam ketaatan."
+    }
+  },
+  {
+    "name": { "en": "Isaac", "id": "Ishak" },
+    "image": "/characters/Isaac.webp",
+    "traits": {
+      "en": ["Trust", "Surrender", "Faith"],
+      "id": ["Percaya", "Penyerahan", "Iman"]
+    },
+    "passage": {
+      "en": ["Genesis 22"],
+      "id": ["Kejadian 22"]
+    },
+    "context": {
+      "en": "Isaac was the long-awaited son promised to Abraham and Sarah. One day, Abraham was tested by God and asked to offer Isaac as a sacrifice. Although Isaac likely didn’t fully understand what was happening, he chose to trust his father and, ultimately, God. At the last moment, God provided another sacrifice, showing that He never intended harm but was testing their faith and obedience.",
+      "id": "Ishak adalah anak yang telah lama dinantikan dan dijanjikan kepada Abraham dan Sara. Suatu hari, Abraham diuji oleh Tuhan dan diminta mempersembahkan Ishak sebagai korban. Meskipun kemungkinan Ishak tidak sepenuhnya memahami apa yang terjadi, ia memilih untuk mempercayai ayahnya dan pada akhirnya Tuhan. Pada saat terakhir, Tuhan menyediakan korban yang lain, menunjukkan bahwa Ia tidak bermaksud mencelakakan mereka, melainkan menguji iman dan ketaatan mereka."
+    },
+    "takeaway": {
+      "en": "Trust God even when you don’t understand what He is doing.",
+      "id": "Percayalah kepada Tuhan bahkan ketika kamu tidak mengerti apa yang sedang Ia lakukan."
     }
   },
   {
     "name": { "en": "Joseph", "id": "Yusuf" },
     "image": "/characters/Joseph.webp",
     "traits": {
-      "en": ["Faithful", "Forgiving"],
-      "id": ["Setia", "Pemaaf"]
+      "en": ["Integrity", "Patience", "Forgiveness"],
+      "id": ["Integritas", "Kesabaran", "Pengampunan"]
+    },
+    "passage": {
+      "en": ["Genesis 37", "Genesis 39-45"],
+      "id": ["Kejadian 37", "Kejadian 39-45"]
+    },
+    "context": {
+      "en": "Joseph was betrayed by his own brothers and sold into slavery. In Egypt, he was falsely accused and thrown into prison, yet he continued to trust God and act with integrity. Over time, God elevated him to a position of authority. When he finally met the brothers who hurt him, Joseph chose to forgive them, recognizing that God had a greater purpose through his suffering.",
+      "id": "Yusuf dikhianati oleh saudara-saudaranya sendiri dan dijual sebagai budak. Di Mesir, ia difitnah dan dimasukkan ke penjara, namun ia tetap percaya kepada Tuhan dan hidup dengan integritas. Seiring waktu, Tuhan mengangkatnya ke posisi yang berkuasa. Ketika akhirnya ia bertemu kembali dengan saudara-saudara yang telah menyakitinya, Yusuf memilih untuk mengampuni mereka, karena ia menyadari bahwa Tuhan memiliki tujuan yang lebih besar melalui penderitaannya."
+    },
+    "takeaway": {
+      "en": "Stay faithful in hardship and choose forgiveness over bitterness.",
+      "id": "Tetap setia dalam kesulitan dan pilihlah pengampunan daripada kepahitan."
     }
   },
   {
-    "name": { "en": "Ruth", "id": "Rut" },
-    "image": "/characters/Ruth.webp",
+    "name": { "en": "Joshua", "id": "Yosua" },
+    "image": "/characters/Joshua.webp",
     "traits": {
-      "en": ["Loyal", "Devoted"],
-      "id": ["Setia", "Berbakti"]
+      "en": ["Courage", "Faith", "Leadership"],
+      "id": ["Keberanian", "Iman", "Kepemimpinan"]
+    },
+    "passage": {
+      "en": ["Joshua 1"],
+      "id": ["Yosua 1"]
+    },
+    "context": {
+      "en": "After Moses, Joshua was chosen to lead the Israelites into the Promised Land. Facing a big responsibility and uncertain challenges, God reminded him multiple times to be strong and courageous. Joshua chose to trust God’s presence and led the people forward in faith.",
+      "id": "Setelah Musa, Yosua dipilih untuk memimpin bangsa Israel masuk ke Tanah Perjanjian. Menghadapi tanggung jawab besar dan tantangan yang tidak pasti, Tuhan berulang kali mengingatkannya untuk menjadi kuat dan berani. Yosua memilih untuk percaya pada penyertaan Tuhan dan memimpin bangsa itu maju dengan iman."
+    },
+    "takeaway": {
+      "en": "Step forward with courage, knowing God is with you.",
+      "id": "Melangkahlah maju dengan berani, knowing Tuhan menyertaimu."
+    }
+  },
+  {
+    "name": { "en": "Lazarus", "id": "Lazarus" },
+    "image": "/characters/Lazarus.webp",
+    "traits": {
+      "en": ["Trust", "Renewal", "God’s Power"],
+      "id": ["Percaya", "Pembaruan", "Kuasa Tuhan"]
+    },
+    "passage": {
+      "en": ["John 11"],
+      "id": ["Yohanes 11"]
+    },
+    "context": {
+      "en": "Lazarus became seriously ill and died, leaving his sisters grieving and confused about why Jesus didn’t come sooner. But Jesus later raised him from the dead, showing that God’s timing and power go beyond human understanding, even in situations that seem final.",
+      "id": "Lazarus jatuh sakit parah dan meninggal, meninggalkan saudari-saudarinya dalam kesedihan dan kebingungan mengapa Yesus tidak datang lebih cepat. Namun kemudian Yesus membangkitkannya dari kematian, menunjukkan bahwa waktu dan kuasa Tuhan melampaui pengertian manusia, bahkan dalam situasi yang tampak sudah berakhir."
+    },
+    "takeaway": {
+      "en": "God is still working, even when things feel too late.",
+      "id": "Tuhan tetap bekerja, bahkan ketika segala sesuatu terasa sudah terlambat."
+    }
+  },
+  {
+    "name": { "en": "Martha", "id": "Marta" },
+    "image": "/characters/Martha.webp",
+    "traits": {
+      "en": ["Service", "Honesty", "Learning"],
+      "id": ["Pelayanan", "Kejujuran", "Belajar"]
+    },
+    "passage": {
+      "en": ["Luke 10:38-42"],
+      "id": ["Lukas 10:38-42"]
+    },
+    "context": {
+      "en": "Martha welcomed Jesus into her home and was busy preparing and serving, trying to do everything well. Meanwhile, her sister Mary chose to sit and listen to Jesus. Feeling overwhelmed, Martha expressed her frustration, and Jesus gently reminded her that while serving is good, being present with Him matters even more.",
+      "id": "Marta menyambut Yesus ke rumahnya dan sibuk mempersiapkan serta melayani, berusaha melakukan semuanya dengan baik. Sementara itu, saudarinya Maria memilih untuk duduk dan mendengarkan Yesus. Merasa kewalahan, Marta mengungkapkan kekecewaannya, dan Yesus dengan lembut mengingatkannya bahwa meskipun melayani itu baik, hadir bersama-Nya jauh lebih penting."
+    },
+    "takeaway": {
+      "en": "Don’t let busyness distract you from what truly matters.",
+      "id": "Jangan biarkan kesibukan mengalihkanmu dari hal yang sungguh penting."
+    }
+  },
+  {
+    "name": { "en": "Mary", "id": "Maria" },
+    "image": "/characters/Mary.webp",
+    "traits": {
+      "en": ["Surrender", "Faith", "Obedience"],
+      "id": ["Penyerahan", "Iman", "Ketaatan"]
+    },
+    "passage": {
+      "en": ["Luke 1"],
+      "id": ["Lukas 1"]
+    },
+    "context": {
+      "en": "Mary was a young woman when she received the unexpected news that she would give birth to Jesus. This brought uncertainty, risk, and possible rejection from others. Even so, she chose to trust God’s plan and responded with willingness, accepting His calling despite not knowing what the future would look like.",
+      "id": "Maria adalah seorang perempuan muda ketika ia menerima kabar tak terduga bahwa ia akan melahirkan Yesus. Hal ini membawa ketidakpastian, risiko, dan kemungkinan penolakan dari orang lain. Meski demikian, ia memilih untuk mempercayai rencana Tuhan dan merespons dengan kesediaan, menerima panggilan-Nya meskipun tidak tahu seperti apa masa depannya."
+    },
+    "takeaway": {
+      "en": "Trust God’s plan, even when it feels unexpected.",
+      "id": "Percayalah pada rencana Tuhan, bahkan ketika semuanya terasa tidak terduga."
+    }
+  },
+  {
+    "name": { "en": "Moses", "id": "Musa" },
+    "image": "/characters/Moses.webp",
+    "traits": {
+      "en": ["Obedience", "Leadership", "Dependence on God"],
+      "id": ["Ketaatan", "Kepemimpinan", "Ketergantungan pada Tuhan"]
+    },
+    "passage": {
+      "en": ["Exodus 3-4"],
+      "id": ["Keluaran 3-4"]
+    },
+    "context": {
+      "en": "Moses was called by God to lead the Israelites out of slavery in Egypt. He felt unqualified and afraid, even questioning his own ability to speak. But God reassured him and provided help. Step by step, Moses obeyed, relying on God’s power rather than his own strength.",
+      "id": "Musa dipanggil oleh Tuhan untuk memimpin bangsa Israel keluar dari perbudakan di Mesir. Ia merasa tidak layak dan takut, bahkan meragukan kemampuannya sendiri untuk berbicara. Tetapi Tuhan meneguhkannya dan menyediakan pertolongan. Selangkah demi selangkah, Musa taat, mengandalkan kuasa Tuhan, bukan kekuatannya sendiri."
+    },
+    "takeaway": {
+      "en": "God can use you, even when you feel unqualified.",
+      "id": "Tuhan dapat memakai kamu, bahkan ketika kamu merasa tidak layak."
     }
   },
   {
     "name": { "en": "Noah", "id": "Nuh" },
     "image": "/characters/Noah.webp",
     "traits": {
-      "en": ["Faith", "Obedience", "Perserverance"],
-      "id": ["Iman", "Taat", "Ketekunan"]
+      "en": ["Obedience", "Faith", "Perseverance"],
+      "id": ["Ketaatan", "Iman", "Ketekunan"]
+    },
+    "passage": {
+      "en": ["Genesis 6-7"],
+      "id": ["Kejadian 6-7"]
+    },
+    "context": {
+      "en": "God asked Noah to build an ark in a time when rain was not even understood. Despite how unusual it seemed and likely being misunderstood by others, Noah obeyed God and continued building faithfully for years. In the end, his obedience saved his family when the flood came.",
+      "id": "Tuhan meminta Nuh membangun bahtera pada masa ketika hujan bahkan belum dipahami. Meskipun hal itu tampak aneh dan kemungkinan membuat orang lain salah paham terhadapnya, Nuh taat kepada Tuhan dan terus membangun dengan setia selama bertahun-tahun. Pada akhirnya, ketaatannya menyelamatkan keluarganya ketika air bah datang."
+    },
+    "takeaway": {
+      "en": "Obey God even when it doesn’t make sense.",
+      "id": "Taatlah kepada Tuhan bahkan ketika hal itu tidak masuk akal."
+    }
+  },
+  {
+    "name": { "en": "Paul", "id": "Paulus" },
+    "image": "/characters/Paul.webp",
+    "traits": {
+      "en": ["Transformation", "Perseverance", "Purpose"],
+      "id": ["Perubahan", "Ketekunan", "Tujuan"]
+    },
+    "passage": {
+      "en": ["Acts 9"],
+      "id": ["Kisah Para Rasul 9"]
+    },
+    "context": {
+      "en": "Paul, once known as Saul, used to persecute Christians and oppose the message of Jesus. On his way to arrest believers, he had a powerful encounter with Jesus that completely changed his life. From that moment, he dedicated himself to spreading the gospel, enduring hardship, rejection, and suffering for the sake of his calling.",
+      "id": "Paulus, yang dahulu dikenal sebagai Saulus, pernah menganiaya orang-orang Kristen dan menentang berita tentang Yesus. Dalam perjalanannya untuk menangkap orang-orang percaya, ia mengalami perjumpaan yang sangat kuat dengan Yesus yang sepenuhnya mengubah hidupnya. Sejak saat itu, ia mendedikasikan dirinya untuk memberitakan Injil, menanggung kesulitan, penolakan, dan penderitaan demi panggilannya."
+    },
+    "takeaway": {
+      "en": "God can transform your past into purpose.",
+      "id": "Tuhan dapat mengubah masa lalumu menjadi tujuan."
+    }
+  },
+  {
+    "name": { "en": "Peter", "id": "Petrus" },
+    "image": "/characters/Peter.webp",
+    "traits": {
+      "en": ["Faith", "Boldness", "Growth"],
+      "id": ["Iman", "Keberanian", "Pertumbuhan"]
+    },
+    "passage": {
+      "en": ["Matthew 14:28-31", "John 21"],
+      "id": ["Matius 14:28-31", "Yohanes 21"]
+    },
+    "context": {
+      "en": "Peter was one of Jesus’ disciples who boldly stepped out of a boat to walk on water toward Him. But when he focused on the wind and waves, he became afraid and began to sink. Later, Peter denied knowing Jesus out of fear, but after Jesus’ resurrection, he was restored and given a new purpose, growing into a strong and bold leader.",
+      "id": "Petrus adalah salah satu murid Yesus yang dengan berani melangkah keluar dari perahu untuk berjalan di atas air menuju-Nya. Tetapi ketika ia memusatkan perhatian pada angin dan ombak, ia menjadi takut dan mulai tenggelam. Kemudian, Petrus menyangkal mengenal Yesus karena takut, tetapi setelah kebangkitan Yesus, ia dipulihkan dan diberi tujuan baru, bertumbuh menjadi pemimpin yang kuat dan berani."
+    },
+    "takeaway": {
+      "en": "Even imperfect faith can grow when you keep coming back to Jesus.",
+      "id": "Bahkan iman yang belum sempurna dapat bertumbuh ketika kamu terus kembali kepada Yesus."
+    }
+  },
+  {
+    "name": { "en": "Ruth", "id": "Rut" },
+    "image": "/characters/Ruth.webp",
+    "traits": {
+      "en": ["Loyalty", "Faithfulness", "Humility"],
+      "id": ["Kesetiaan", "Kesetiaan yang teguh", "Kerendahan hati"]
+    },
+    "passage": {
+      "en": ["Ruth 1-2"],
+      "id": ["Rut 1-2"]
+    },
+    "context": {
+      "en": "Ruth lost her husband and had the choice to return to her own people, but she chose to stay with her mother-in-law Naomi, leaving behind everything familiar. She followed Naomi into a new land and chose to trust Naomi’s God. To provide for them, Ruth worked in the fields, picking up leftover grain with humility and diligence, trusting that God would provide for their needs.",
+      "id": "Rut kehilangan suaminya dan memiliki pilihan untuk kembali kepada bangsanya sendiri, tetapi ia memilih untuk tinggal bersama ibu mertuanya, Naomi, meninggalkan segala sesuatu yang akrab baginya. Ia mengikuti Naomi ke negeri yang baru dan memilih untuk percaya kepada Tuhan yang disembah Naomi. Untuk mencukupi kebutuhan mereka, Rut bekerja di ladang, memungut bulir-bulir jelai yang tersisa dengan rendah hati dan rajin, sambil percaya bahwa Tuhan akan menyediakan kebutuhan mereka."
+    },
+    "takeaway": {
+      "en": "Choose faithfulness over comfort, and trust God in the unknown.",
+      "id": "Pilih kesetiaan daripada kenyamanan, dan percayalah kepada Tuhan dalam ketidakpastian."
+    }
+  },
+  {
+    "name": { "en": "Stephen", "id": "Stefanus" },
+    "image": "/characters/Stephen.webp",
+    "traits": {
+      "en": ["Boldness", "Faith", "Forgiveness"],
+      "id": ["Keberanian", "Iman", "Pengampunan"]
+    },
+    "passage": {
+      "en": ["Acts 6-7"],
+      "id": ["Kisah Para Rasul 6-7"]
+    },
+    "context": {
+      "en": "Stephen boldly spoke about Jesus even when people opposed him. Despite being falsely accused and ultimately killed for his faith, he remained full of grace and even forgave those who hurt him.",
+      "id": "Stefanus dengan berani berbicara tentang Yesus bahkan ketika orang-orang menentangnya. Meskipun difitnah dan akhirnya dibunuh karena imannya, ia tetap penuh kasih karunia dan bahkan mengampuni mereka yang menyakitinya."
+    },
+    "takeaway": {
+      "en": "Stand firm in truth and respond with grace, even in opposition.",
+      "id": "Berdirilah teguh dalam kebenaran dan tanggapilah dengan kasih karunia, bahkan di tengah pertentangan."
     }
   }
 ]
